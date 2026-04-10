@@ -12,3 +12,7 @@ print ("Casado?:", casado)
 #---------------------------------------------------------------------
 #Actividad 3
 #10/04/2026
+#Paúl Zurita
+nombre_completo, ciudad, año, Es_verdadero, nombre, apellido, luz_Encendida = "Paúl Zurita", "Quito", 2026, True, "Paúl", "Zurita", True
+print (type(nombre_completo,ciudad, año, Es_verdadero, nombre, apellido, luz_Encendida, pais, edad, casado))
+
