@@ -9,3 +9,6 @@ print ("Pais:", pais)
 print ("edad:", edad)
 print ("Casado?:", casado)
 
+#---------------------------------------------------------------------
+#Actividad 3
+#10/04/2026
