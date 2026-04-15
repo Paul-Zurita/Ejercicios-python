@@ -1,10 +1,13 @@
-# 1 y 2
+#Actividad 3 
+#14/04/2026
+# # 1 y 2
+#%%
 edad = 20
 estatura = 1.75
-
+#%%
 print("Edad:", edad)
 print("Estatura:", estatura)
-
+#%%
 # 3. Área de triángulo
 base = float(input("\nIngrese la base del triángulo: "))
 altura = float(input("Ingrese la altura del triángulo: "))
