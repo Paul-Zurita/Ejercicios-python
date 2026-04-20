@@ -108,7 +108,7 @@ mayusculas = nombre_completo.upper()
 print (f"Reporte final: {mayusculas}, de {pais} ")
 print (f"Area total: {area_total}")
 print (f"Costos estimado: {costo_estimado}")
-print ("la longitud de su nombre es igual a:"len(nombre_completo))
+print (len(nombre_completo))
 if "a" in nombre_completo.lower():
     print("La letra 'a' está presente.")
 if costo_estimado >= 100:
