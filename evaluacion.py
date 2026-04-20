@@ -75,14 +75,53 @@ print (f"Costo estimado: {costo}")
 #1. Cree la variable frase con el texto "Tecnología para todos".
 variable = "Tecnología para todos"
 #2. Muestre la frase en mayúscula
-print (variable + texto.upper())
+variable_mayusculas = variable.upper()
+print (variable_mayusculas)
 #3. Muestre la cantidad de caracteres de la frase.
 print (len(variable))
 #4. Verifique si la palabra "Python" está dentro de la frase.
-
+if "Python" in variable.lower():
+    print("La palabra 'Python' está presente.")
 #5. Reemplace "Tecnología" por "Programación".
+remplazo = variable.replace("tecnologia", "Programacion")
+print (remplazo)
 #6. Divida la frase en palabras usando split(). 
-
+divido = variable.split()
+print (divido)
+#%%
 # ===== PARTE C =====
 # Programa integrador
-# ...
+# Una tienda desea generar un resumen de presupuesto para cubrir una pared rectangular con papel decorativo.
+# 5. Desarrolla un programa (40 puntos)
+
+nombre = str(input("Tu nombre porfavor: "))
+apellido = str(input("Tu apellido porfavor: "))
+pais = str(input("Tu pais porfavor: "))
+ancho_pared = int(input("El ancho de la pared solicitada porfavor: "))
+alto_pared = int(input("El alto de la pared solicitada porfavor: "))
+precios = int(input("El precio por metro cuadrado porfavor"))
+area_total = ancho_pared * alto_pared
+costo_estimado = area_total * precios
+nombre_completo = nombre+" "+apellido
+mayusculas = nombre_completo.upper()
+print (f"Reporte final: {mayusculas}, de {pais} ")
+print (f"Area total: {area_total}")
+print (f"Costos estimado: {costo_estimado}")
+print ("la longitud de su nombre es igual a:"len(nombre_completo))
+if "a" in nombre_completo.lower():
+    print("La letra 'a' está presente.")
+if costo_estimado >= 100:
+    print ("El costo estimado supera los 100$")
+#1. Solicite al usuario: Nombre, apellido, país, ancho de la pared, alto de la pared, precio por
+#metro cuadrado o Calcule: área de la pared, costo total estimado
+#2. Cree la variable nombre_completo.
+#1. Muestre un reporte final que incluya:
+#o nombre completo, país, área calculada, costo total (La impresión del reporte final debe
+#realizarse usando f-strings.)
+#3. Muestre además:
+#o nombre_completo en mayúsculas
+#o la longitud de nombre_completo
+#o si la letra "a" está presente en nombre_completo
+#o si el costo total es mayor que 100
+
+# %%
