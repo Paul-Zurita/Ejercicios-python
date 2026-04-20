@@ -42,11 +42,12 @@ print(len(nombre))
 
 #d) Escribe una instrucción que permita comprobar la versión de Python que se está usando.
 #Respuesta:
-#
+#python --version
 
 #e) Escribe una instrucción que permita consultar las palabras reservadas de Python
 #Respuesta:
-#"help"
+#"import keyword
+#print(keyword.kwlist)
 
 # ===== PARTE B =====
 # Código corregido
@@ -123,5 +124,3 @@ if costo_estimado >= 100:
 #o la longitud de nombre_completo
 #o si la letra "a" está presente en nombre_completo
 #o si el costo total es mayor que 100
-
-# %%
