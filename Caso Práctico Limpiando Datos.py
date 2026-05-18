@@ -9,3 +9,4 @@ for caracter in cedula:
     cedula_limpia = cedula_limpia + caracter
 
 print(cedula_limpia)
+print(cedula)
