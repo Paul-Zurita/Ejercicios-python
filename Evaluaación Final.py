@@ -11,41 +11,35 @@ print("Acceso permitido")
 print("Bienvenido al sistema")
 temas = ["variables","cálculos","input","print","f-string","condicionales","ciclos"]
 
-print (temas)
-
 for tema in temas:
-    print(tema)
-
-cantidad = int(input("\n¿Cuántos estudiantes serán revisados?: "))
+        print(tema)
+        cantidad = int(input("\n¿Cuántos estudiantes serán revisados?: "))
 
 for i in range(cantidad):
-
-    print(f"\nEstudiante {i + 1}")
-
-nombre = input("Nombre: ")
-ejercicios = float(input("Nota de ejercicios básicos: "))
-condicionales = float(input("Nota de condicionales: "))
-ciclos = float(input("Nota de ciclos: "))
-practicas = int(input("Cantidad de prácticas completadas: "))
-
-promedio = (ejercicios + condicionales + ciclos) / 3
+        print(f"\nEstudiante {i + 1}")
+        nombre = input("Nombre: ")
+        ejercicios = float(input("Nota de ejercicios básicos: "))
+        condicionales = float(input("Nota de condicionales: "))
+        ciclos = float(input("Nota de ciclos: "))
+        practicas = int(input("Cantidad de prácticas completadas: "))
+        promedio = (ejercicios + condicionales + ciclos) / 3
 
 # Clasificación
-if promedio >= 9:
-    if practicas >= 5:
-        estado = "Habilitado con nivel alto"
-    else:
-        estado = "Pendiente por prácticas"
-elif promedio >= 7:
-    if practicas >= 4:
-        estado = "Habilitado"
-    else:
-        estado = "Pendiente por prácticas"
-else:
-    estado = "Requiere refuerzo"
+        if promedio >= 9:
+            if practicas >= 5:
+                estado = "Habilitado con nivel alto"
+            else:
+                estado = "Pendiente por prácticas"
+        elif promedio >= 7:
+            if practicas >= 4:
+                estado = "Habilitado"
+            else:
+                estado = "Pendiente por prácticas"
+        else:
+            estado = "Requiere refuerzo"
 
-print("\n--- REPORTE ---")
-print(f"Nombre: {nombre}")
-print(f"Promedio final: {promedio:.2f}")
-print(f"Prácticas completadas: {practicas}")
-print(f"Estado académico: {estado}")
+        print("--- REPORTE ---")
+        print(f"Nombre: {nombre}")
+        print(f"Promedio final: {promedio}")
+        print(f"Prácticas completadas: {practicas}")
+        print(f"Estado académico: {estado}")
