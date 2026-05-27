@@ -27,3 +27,19 @@ ejercicios = float(input("Nota de ejercicios básicos: "))
 condicionales = float(input("Nota de condicionales: "))
 ciclos = float(input("Nota de ciclos: "))
 practicas = int(input("Cantidad de prácticas completadas: "))
+
+promedio = (ejercicios + condicionales + ciclos) / 3
+
+# Clasificación
+if promedio >= 9:
+    if practicas >= 5:
+        estado = "Habilitado con nivel alto"
+    else:
+        estado = "Pendiente por prácticas"
+elif promedio >= 7:
+    if practicas >= 4:
+        estado = "Habilitado"
+    else:
+        estado = "Pendiente por prácticas"
+else:
+    estado = "Requiere refuerzo"
