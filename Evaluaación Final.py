@@ -43,3 +43,9 @@ elif promedio >= 7:
         estado = "Pendiente por prácticas"
 else:
     estado = "Requiere refuerzo"
+
+print("\n--- REPORTE ---")
+print(f"Nombre: {nombre}")
+print(f"Promedio final: {promedio:.2f}")
+print(f"Prácticas completadas: {practicas}")
+print(f"Estado académico: {estado}")
