@@ -8,4 +8,6 @@ while clave != clave_correcta:
         print("Clave incorrecta")
 
 print("Acceso permitido")
-print("Bienvenido al sistema")9
+print("Bienvenido al sistema")
+temas = ["variables","cálculos","input","print","f-string","condicionales","ciclos"]
+print (temas)
