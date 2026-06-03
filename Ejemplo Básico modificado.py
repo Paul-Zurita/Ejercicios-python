@@ -1,6 +1,6 @@
 
 def obtener_mensaje(mensaje_personalizado):
-    z|return mensaje_personalizado
+    return mensaje_personalizado
 
 def generar_nombre_completo(nom, ape):
     espacio = ' '
