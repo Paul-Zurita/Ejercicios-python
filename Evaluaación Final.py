@@ -16,7 +16,6 @@ cantidad = int(input("\n¿Cuántos estudiantes serán revisados?: "))
 for i in range(cantidad):
     print(f"\nEstudiante {i + 1}")
     
-    # Esto evita que se salte el Estudiante 1 si la consola tiene un 'Enter' guardado
     nombre = input("Nombre: ").strip()
     while not nombre:
         nombre = input("Nombre: ").strip()
